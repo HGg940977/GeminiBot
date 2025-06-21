@@ -72,7 +72,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
-        text="Hi. It's   Tohina ai. You can ask me anything and talk to me about what you want",
+        text="Hi. It's   Tohina ai. You can ask me anything and talk to me about what you want.I was created by Ahmed Shariar Hossain Tasnim ",
         reply_markup=reply_markup,
     )
 
