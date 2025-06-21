@@ -72,7 +72,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
-        text="Hi. It's Gemini Chat Bot. You can ask me anything and talk to me about what you want",
+        text="Hi. It's   Tohina ai. You can ask me anything and talk to me about what you want",
         reply_markup=reply_markup,
     )
 
@@ -142,7 +142,7 @@ async def start_over(update: Update, context: ContextTypes.DEFAULT_TYPE, conn) -
     reply_markup = InlineKeyboardMarkup(keyboard)
     msg = await context.bot.send_message(
         query.message.chat.id,
-        text="Hi. It's Gemini Chat Bot. You can ask me anything and talk to me about what you want",
+        text="Hi. It's  Tohina ai. You can ask me anything and talk to me about what you want.I was created by Ahmed Shariar Hossain Tasnim ",
         reply_markup=reply_markup,
     )
     context.user_data["to_delete_message"] = msg
